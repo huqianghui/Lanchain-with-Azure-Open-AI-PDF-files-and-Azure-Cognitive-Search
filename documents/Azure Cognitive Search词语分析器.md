@@ -38,11 +38,6 @@ Analyzers 负责在索引和查询执行期间处理字符串。文本处理中�
 	
 Microsoft 分析器的索引平均比 Lucene 的索引慢两到三倍，具体取决于语言。 对于平均大小的查询，搜索性能应该不会受到显著影响。
 
-![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/8b2cfc54-056b-4b2a-9ed2-42882cd05fc1)
-
-
-![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/47afc8fa-8110-418a-95ef-7f150322941d)1. 
-
 5. 默认的Lucene分析器
 
    默认分析器为 Standard Lucene，它适用于英语，但可能不如 Lucene 的英语分析器或 Microsoft 的英语分析器那样适用。
