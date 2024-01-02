@@ -1,4 +1,4 @@
-![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/8b2cfc54-056b-4b2a-9ed2-42882cd05fc1)![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/47afc8fa-8110-418a-95ef-7f150322941d)1. 词语分析器：
+词语分析器：
    
 Analyzers 负责在索引和查询执行期间处理字符串。文本处理中，analyzers 用于标记术语。
 
