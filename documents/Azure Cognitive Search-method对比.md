@@ -1,12 +1,11 @@
-1. Vector Search
    
 
-![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/f4b16459-2fe0-4c7f-b233-cbe9ceb12068)
 目标文档内容参考：
 
 <img width="468" alt="image" src="https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/11178aa3-c445-4abe-896b-4c0bde4c17c0">
 
 
+1. Vector Search
 
 1.1 代码实现：
 
