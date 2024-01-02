@@ -1,4 +1,4 @@
-词语分析器：
+1. 词语分析器：
    
 Analyzers 负责在索引和查询执行期间处理字符串。文本处理中，analyzers 用于标记术语。
 
@@ -38,6 +38,11 @@ Analyzers 负责在索引和查询执行期间处理字符串。文本处理中�
 	
 Microsoft 分析器的索引平均比 Lucene 的索引慢两到三倍，具体取决于语言。 对于平均大小的查询，搜索性能应该不会受到显著影响。
 
+![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/8b2cfc54-056b-4b2a-9ed2-42882cd05fc1)
+
+
+![image](https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/47afc8fa-8110-418a-95ef-7f150322941d)1. 
+
 5. 默认的Lucene分析器
 
    默认分析器为 Standard Lucene，它适用于英语，但可能不如 Lucene 的英语分析器或 Microsoft 的英语分析器那样适用。
@@ -51,7 +56,10 @@ Microsoft 分析器的索引平均比 Lucene 的索引慢两到三倍，具体�
 Azure 认知搜索默认使用 Apache Lucene 标准分析器 (standard lucene)，该分析器按照“Unicode 文本分段”规则将文本分解成多个元素。 
 标准分析器会将所有字符转换为其小写形式。 已编入索引的文档和搜索词在索引和查询处理期间完成分析。
 
+
 <img width="335" alt="image" src="https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/59d2d174-a693-4fe3-8671-45ffd991099c">
+
+
 
 <img width="458" alt="image" src="https://github.com/huqianghui/Lanchain-with-Azure-Open-AI-PDF-files-and-Azure-Cognitive-Search/assets/7360524/bf872cbf-6744-4fd3-add4-6242c863057b">
 
